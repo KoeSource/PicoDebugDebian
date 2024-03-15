@@ -66,7 +66,7 @@ Bus 001 Device 004: ID 2e8a:000c Raspberry Pi Debug Probe (CMSIS-DAP)
 Clone this project, or generate a new one.
 ```bash
 # This example project
-git clone <placeholder>
+git clone git@github.com:KoeSource/pdd.git
 # 
 git clone https://github.com/raspberrypi/pico-project-generator.git
 cd pico-project-generator
@@ -79,5 +79,8 @@ Run the debugger.
 
 # Issues
 
-`<Placeholder>`
+If you have issues check follow files first:  
+- .vscode/launch.json
+- .vscode/settings.json
+- .vscode/c_cpp_properties.json
 
