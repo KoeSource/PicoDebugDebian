@@ -13,7 +13,8 @@ https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
 https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf  
 https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf  
 
-- Debug Probe setup and running
+- Debug Probe running, with firmware
+- Debug Probe connected to Rasperry Pi Pico
 
 https://github.com/raspberrypi/debugprobe/releases  
 https://www.raspberrypi.com/products/debug-probe/  
