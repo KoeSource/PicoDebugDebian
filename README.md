@@ -36,10 +36,15 @@ apt install usbutils libhidapi-dev gdb-multiarch
 apt install python3 python3-pip python3-tk  # Project-Generator
 ```
 
+Configure enviroment variable, if not already done.  
+```bash
+echo PICO_SDK_PATH=\"/home/$USER/pico/pico-sdk\" >> /etc/environment
+```
+
 Set user rights
 ```bash
-usermod -aG dialout plugdev <USER>
-id -nG <USER>
+usermod -aG dialout plugdev $USER
+id -nG $USER
 reboot
 ```
 
