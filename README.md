@@ -1,23 +1,23 @@
 # Pico Debug Debian
 
-How to configure Rasperry Pi Debug Probe in VSCode (C/C++).
-Its a pain to configure on Linux.
-It took me around 5 hours to get it runnning.
+How to configure Rasperry Pi Debug Probe in VSCode (C/C++).  
+Its a pain to configure on Linux.  
+It took me around 5 hours to get it runnning.  
 
 # Requirements
 
 - Successfully compiled a sample project e.g. "blink"
 
 Further information:  
-https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
-https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
-https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf
+https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf  
+https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf  
+https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf  
 
 - Debug Probe setup and running
 
-https://github.com/raspberrypi/debugprobe/releases
-https://www.raspberrypi.com/products/debug-probe/
-https://raspberrypi.com/documentation/microcontrollers/debug-probe.html
+https://github.com/raspberrypi/debugprobe/releases  
+https://www.raspberrypi.com/products/debug-probe/  
+https://raspberrypi.com/documentation/microcontrollers/debug-probe.html  
 
 
 # VSCode Plugins
@@ -42,7 +42,7 @@ id -nG <USER>
 reboot
 ```
 
-Install OpenOCD
+Install OpenOCD  
 Important: Use the `./configure` here described.
 ```bash
 # if it already exists `make clean` or delete folder
@@ -63,7 +63,7 @@ Bus 001 Device 004: ID 2e8a:000c Raspberry Pi Debug Probe (CMSIS-DAP)
 ```
 
 
-Clone this project, or generate a new one
+Clone this project, or generate a new one.
 ```bash
 # This example project
 git clone <placeholder>
@@ -74,8 +74,8 @@ cd pico-project-generator
 # Make sure you select Debugger: "CMSIS-DAP Debug Probe"
 ```
 
-Build the Project
-Run the debugger.
+Build the Project  
+Run the debugger.  
 
 # Issues
 
