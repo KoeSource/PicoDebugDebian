@@ -1,3 +1,0 @@
-/home/koe/pico/pdd/build/pioasm/CMakeFiles/pioasm.dir
-/home/koe/pico/pdd/build/pioasm/CMakeFiles/edit_cache.dir
-/home/koe/pico/pdd/build/pioasm/CMakeFiles/rebuild_cache.dir
