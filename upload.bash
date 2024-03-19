@@ -14,5 +14,5 @@ elif [[ $files_count -lt 1 ]]; then
   echo "No files found to upload"
   echo "example: build/*.elf"
 else
-  openocd -f interface/cmsis-dap.cfg -f target/rp2040.cfg -c "program build/$files verify reset exit"
+  openocd -f interface/cmsis-dap.cfg -f target/rp2040.cfg -c "adapter speed 5000" -c "program build/$files verify reset exit" 
 fi
